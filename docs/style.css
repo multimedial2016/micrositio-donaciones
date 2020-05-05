@@ -15,24 +15,11 @@
 
     --fontOne: 'Montserrat', sans-serif;
     --fontTwo: 'Baloo Bhaina 2', cursive;
-
-    --font-size1: 25px;
-    --font-size2: 25px;
-    --font-size3: 50px
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.font-size1{
-    font-size: var(--font-size1);
-}
-.font-size2{
-    font-size: var(--font-size2);
-}
-.font-size3{
-    font-size: var(--font-size3);
 }
 .font-style-ms-title{
     font-family: var(--fontOne);
@@ -88,7 +75,10 @@
         margin: 0 0 20px 0;
     }
     .font-size1{
-        font-size: var(--font-size1);
+        font-size: 40px;
+    }
+    .font-size2{
+        font-size: 25px;
     }
     .font-style-ms-parrafo{
         line-height: 30px;
