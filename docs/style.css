@@ -1,0 +1,19 @@
+.paralelogramo {
+    width: 150px; 
+    height: 50px;
+    line-height:50px;
+    text-align:center;
+    background: #428bca;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+}
+.paralelogramo>.title1 {
+    display:inline-block;
+    vertical-align:middle;
+    line-height:50%;
+    text-transform: uppercase;
+    font-style: normal;
+}
