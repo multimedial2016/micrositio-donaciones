@@ -1,19 +1,118 @@
-.paralelogramo {
-    width: 150px; 
-    height: 50px;
-    line-height:50px;
-    text-align:center;
-    background: #428bca;
-    -webkit-transform: skew(-15deg);
-    -moz-transform: skew(-15deg);
-    -ms-transform: skew(-15deg);
-    -o-transform: skew(-15deg);
-    transform: skew(-15deg);
+/*variables css*/
+
+:root{
+
+    --color1: #4D4D4D;
+    --color2: #FE45D7;
+    --color3: #000;
+    --color4: #fff;
+    --color5: #FE9ED3;
+    --color6: #EC1C24;
+    --color7: #8CC63F;
+    --color8: #575756;
+    --color9: #0071BC;
+    --color10: #333333;
+
+    --fontOne: 'Montserrat', sans-serif;
+    --fontTwo: 'Baloo Bhaina 2', cursive;
+
+    --font-size1: 25px;
+    --font-size2: 25px;
+    --font-size3: 50px
 }
-.paralelogramo>.title1 {
-    display:inline-block;
-    vertical-align:middle;
-    line-height:50%;
-    text-transform: uppercase;
-    font-style: normal;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-size1{
+    font-size: var(--font-size1);
+}
+.font-size2{
+    font-size: var(--font-size2);
+}
+.font-size3{
+    font-size: var(--font-size3);
+}
+.font-style-ms-title{
+    font-family: var(--fontOne);
+    font-size: 50px;
+    color: var(--color2);
+}
+.font-style-ms-parrafo{
+    font-family: var(--fontTwo);
+    line-height: 52px;
+    color: var(--color1);
+}
+.font-weight-normal{
+    font-weight: normal;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.font-weight-black{
+    font-weight: 900;
+}
+.contenedor-ms-section1{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background: #EAEAEA;
+}
+.contenedor-ms-logo-parrafo{
+    width: 80%;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;  /* fallback for old browsers */
+    -webkit-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+    box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.logo-fundacion-copservir{
+    margin: 10px 0 10px 0;
+}
+
+/* On screens that are 992px or less*/
+@media screen and (max-width: 992px) {
+    
+  }
+  
+  /* On screens that are 600px or less */
+  @media screen and (max-width: 600px) {
+    .font-style-ms-title{
+        font-family: var(--fontOne);
+        margin: 0 0 20px 0;
+    }
+    .font-size1{
+        font-size: var(--font-size1);
+    }
+    .font-style-ms-parrafo{
+        line-height: 30px;
+    }
+    .contenedor-ms-section2{
+        width: 100%;
+        padding: 50px 0 50px 0;
+        text-align: center;
+    }
+    .contenedor-ms-logo-parrafo{
+        width: 100%;
+        margin-top: -70px;
+        border-radius: 0px 0px 0px 0px;
+        -moz-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        background: #fff;  /* fallback for old browsers */
+        -webkit-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+        -moz-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+        box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+        text-align: center;
+        padding: 20px 10px 20px 10px;
+    }
+    .logo-fundacion-copservir{
+        width: 280px;
+        margin: 10px 0 10px 0;
+    }
 }
