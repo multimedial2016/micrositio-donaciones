@@ -21,15 +21,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+.font-size1{
+    font-size: 6em;
+}
+.font-size2{
+    font-size: 3em;
+}
+.font-size3{
+    font-size: 2.7em;
+}
 .font-style-ms-title{
     font-family: var(--fontOne);
-    font-size: 50px;
     color: var(--color2);
+}
+.font-style-ms-title2{
+    font-family: var(--fontOne);
+    line-height: 100px;
+    color: var(--color4);
 }
 .font-style-ms-parrafo{
     font-family: var(--fontTwo);
-    line-height: 52px;
+    line-height: 40px;
     color: var(--color1);
+    margin: 40px 0 40px 0;
+}
+.font-style-ms-parrafo2{
+    font-family: var(--fontTwo);
+    line-height: 40px;
+    color: var(--color3);
+    margin: 40px 0 40px 0;
+}
+.font-style-ms-parrafo3{
+    font-family: var(--fontTwo);
+    line-height: 40px;
+    color: var(--color3);
+    margin: 40px 0 40px 10px;
+    text-align: left;
+}
+.font-style-ms-parrafo4{
+    font-family: var(--fontTwo);
+    line-height: 40px;
+    color: var(--color4);
+    margin: 40px 0 40px 10px;
+}
+.font-style-ms-parrafo5{
+    font-family: var(--fontTwo);
+    line-height: 40px;
+    color: var(--color1);
+    margin: 40px 0 40px 10px;
+}
+.font-style-ms-parrafo6{
+    font-family: var(--fontTwo);
+    line-height: 40px;
+    color: var(--color2);
+    margin: 40px 0 40px 0;
 }
 .font-weight-normal{
     font-weight: normal;
@@ -40,10 +85,53 @@
 .font-weight-black{
     font-weight: 900;
 }
+.content-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 150px;
+    margin: 20px auto 0 auto;
+    background-color: var(--color5);
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+}
+.line{
+    background-color: var(--color2);
+    height: 20px;
+}
+.img-examen{
+    margin: 20px;
+}
+.content-box-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .contenedor-ms-section1{
     width: 100%;
     padding: 50px 0 50px 0;
     background: #EAEAEA;
+}
+.contenedor-ms-section2{
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+.contenedor-ms-section3{
+    margin: 50px 0 0 0;
+    padding: 50px 0 0 0;
+    text-align: center;
+    background-color: var(--color5);
+}
+.contenedor-ms-section4{
+    padding: 50px 0 0 0;
+    text-align: center;
 }
 .contenedor-ms-logo-parrafo{
     width: 80%;
@@ -63,10 +151,37 @@
     margin: 10px 0 10px 0;
 }
 
+.pasos {
+    width: 200px;
+    background: var(--color2);
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+    margin: 0 auto 0 auto;
+}
+.font-style-title-pasos{
+    font-family: var(--fontOne);
+    color: var(--color4);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+}
+.font-style-parrafo-pasos{
+    font-family: var(--fontTwo);
+    line-height: 40px;
+    color: var(--color4);
+    margin: 15px 0 40px 10px;
+}
+
 /* On screens that are 992px or less*/
 @media screen and (max-width: 992px) {
     .font-size1{
         font-size: 2.8em;
+    }
+    .font-size2{
+        font-size: 1.8em;
     }
   }
   
@@ -80,7 +195,7 @@
         font-size: 2.8em;
     }
     .font-size2{
-        font-size: 25px;
+        font-size: 1.8em;
     }
     .font-style-ms-parrafo{
         line-height: 30px;
