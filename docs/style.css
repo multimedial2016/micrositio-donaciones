@@ -15,75 +15,144 @@
 
     --fontOne: 'Montserrat', sans-serif;
     --fontTwo: 'Baloo Bhaina 2', cursive;
+
+    --font-size-title: 90px;
+    --font-size-1: 35px;
+    --font-size-2: 40px;
+    --font-size-3: 50px;
+    --font-size-4: 60px;
+    --font-size-5: 22px;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.font-size1{
-    font-size: 6em;
+.margin-left{
+    margin-left: 10px;
 }
-.font-size2{
-    font-size: 3em;
+.margin-left-2{
+    margin-left: 30px;
 }
-.font-size3{
-    font-size: 2.7em;
+.margin-right{
+    margin-right: 10px;
 }
-.font-style-ms-title{
+.margin-top{
+    margin-top: 50px;
+}
+.font-size-title{
+    font-size: var(--font-size-title);
+}
+.font-size-1{
+    font-size: var(--font-size-1);
+}
+.font-size-2{
+    font-size: var(--font-size-2);
+}
+.font-size-3{
+    font-size: var(--font-size-3);
+}
+.font-size-4{
+    font-size: var(--font-size-4);
+}
+.font-size-5{
+    font-size: var(--font-size-5);
+}
+.style-ms-title{
     font-family: var(--fontOne);
     color: var(--color2);
+    font-weight: 900;
 }
-.font-style-ms-title2{
+.style-ms-title2{
     font-family: var(--fontOne);
     line-height: 100px;
     color: var(--color4);
+    font-weight: 900;
 }
-.font-style-ms-parrafo{
+.style-ms-parrafo{
     font-family: var(--fontTwo);
     line-height: 40px;
     color: var(--color1);
     margin: 40px 0 40px 0;
 }
-.font-style-ms-parrafo2{
+.style-ms-parrafo2{
     font-family: var(--fontTwo);
     line-height: 40px;
     color: var(--color3);
     margin: 40px 0 40px 0;
 }
-.font-style-ms-parrafo3{
+.style-ms-parrafo3{
     font-family: var(--fontTwo);
     line-height: 40px;
     color: var(--color3);
     margin: 40px 0 40px 10px;
     text-align: left;
 }
-.font-style-ms-parrafo4{
+.style-ms-parrafo4{
     font-family: var(--fontTwo);
     line-height: 40px;
     color: var(--color4);
     margin: 40px 0 40px 10px;
 }
-.font-style-ms-parrafo5{
+.style-ms-parrafo5{
     font-family: var(--fontTwo);
     line-height: 40px;
     color: var(--color1);
     margin: 40px 0 40px 10px;
 }
-.font-style-ms-parrafo6{
+.style-ms-parrafo6{
     font-family: var(--fontTwo);
     line-height: 40px;
     color: var(--color2);
     margin: 40px 0 40px 0;
 }
-.font-weight-normal{
-    font-weight: normal;
-}
-.font-weight-bold{
-    font-weight: bold;
-}
-.font-weight-black{
+.style-ms-parrafo7{
+    font-family: var(--fontOne);
+    color: var(--color8);
     font-weight: 900;
+}
+.style-ms-parrafo8{
+    font-family: var(--fontOne);
+    color: var(--color8);
+    font-weight: 900;
+    text-align: left;
+}
+.style-ms-parrafo9{
+    font-family: var(--fontOne);
+    color: var(--color4);
+    font-weight: 900;
+    margin: 5px 0 0 0;
+}
+.style-ms-parrafo10{
+    font-family: var(--fontTwo);
+    line-height: 40px;
+    color: var(--color3);
+    margin: 0 0 -20px 0;
+}
+.style-ms-title3{
+    font-family: var(--fontOne);
+    line-height: 90px;
+    color: var(--color6);
+    font-weight: 900;
+}
+.style-ms-title4{
+    font-family: var(--fontOne);
+    line-height: 90px;
+    color: var(--color7);
+    font-weight: 900;
+}
+.style-title-pasos{
+    font-family: var(--fontOne);
+    color: var(--color4);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+}
+.style-parrafo-pasos{
+    font-family: var(--fontTwo);
+    line-height: 40px;
+    color: var(--color4);
+    margin: 15px 0 40px 10px;
 }
 .content-box1{
     display: flex;
@@ -101,6 +170,16 @@
     border-radius: 100px 100px 100px 100px;
     -moz-border-radius: 100px 100px 100px 100px;
     -webkit-border-radius: 100px 100px 100px 100px;
+}
+.content-box-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-box-3-int{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .line{
     background-color: var(--color2);
@@ -130,6 +209,15 @@
     background-color: var(--color5);
 }
 .contenedor-ms-section4{
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.contenedor-ms-section5{
+    text-align: center;
+    background-color: var(--color7);
+    padding: 50px 0 50px 0;
+}
+.contenedor-ms-section6{
     padding: 50px 0 0 0;
     text-align: center;
 }
@@ -161,19 +249,7 @@
     transform: skew(-15deg);
     margin: 0 auto 0 auto;
 }
-.font-style-title-pasos{
-    font-family: var(--fontOne);
-    color: var(--color4);
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 900;
-}
-.font-style-parrafo-pasos{
-    font-family: var(--fontTwo);
-    line-height: 40px;
-    color: var(--color4);
-    margin: 15px 0 40px 10px;
-}
+
 
 /* On screens that are 992px or less*/
 @media screen and (max-width: 992px) {
