@@ -536,4 +536,10 @@ a{
     .img-examen{
         width: 90%;
     }
+    .style-msd-section-7-t{
+        font-size: var(--font-size-5);
+    }
+    .style-msd-section-9-p, a{
+        font-size: 10px;
+    }
 }
