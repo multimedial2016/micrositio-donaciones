@@ -398,7 +398,66 @@ a{
 
 /* On screens that are 992px or less*/
 @media screen and (max-width: 992px) {
-    
+    .msd-logo{
+        width: 250px;
+        margin: 10px 0 10px 0;
+    }
+    .msd-margin-top-1{
+        margin-top: 40px;
+    }
+    .msd-margin--top-2{
+        margin-top: 20px;
+    }
+    .msd-img-mujeres{
+        width: 100%;
+    }
+
+    .contenedor-msd-section{
+        width: 100%;
+        margin-top: -70px;
+        border-radius: 0px 0px 0px 0px;
+        -moz-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+        background: #fff;  /* fallback for old browsers */
+        -webkit-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+        -moz-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+        box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+        text-align: center;
+        padding: 20px 10px 20px 10px;
+    }
+    .style-msd-section-1-p{
+        font-size: var(--font-size-2);
+        line-height: 40px;
+    }
+    .style-msd-section-2-t{
+        font-size: var(--font-size-3);
+        font-weight: 900;
+    }
+    .style-msd-section-2-p{
+        font-size: var(--font-size-2);
+        line-height: 40px;
+    }
+    .style-msd-section-2-p-2{
+        font-size: var(--font-size-2);
+    }
+    .contenedor-2-msd-section-2{
+        width: 90%;
+        height: 300px;
+        margin: 20px auto 0 auto;
+        border-radius: 20px 20px 20px 20px;
+        -moz-border-radius: 20px 20px 20px 20px;
+        -webkit-border-radius: 20px 20px 20px 20px;
+    }
+    .style-msd-section-2-p-4{
+        font-size: var(--font-size-2);
+    }
+    .style-msd-section-3-t{
+        font-size: var(--font-size-3);
+        line-height: 50px;
+    }
+    .style-msd-section-3-p{
+        font-size: var(--font-size-2);
+    }
   }
 
 /* On screens that are 600px or less */
