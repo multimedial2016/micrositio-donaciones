@@ -1,0 +1,223 @@
+/*variables css*/
+
+:root{
+
+    --color1: #4D4D4D;
+    --color2: #FE45D7;
+    --color3: #000;
+    --color4: #fff;
+    --color5: #FE9ED3;
+    --color6: #EC1C24;
+    --color7: #8CC63F;
+    --color8: #575756;
+    --color9: #0071BC;
+    --color10: #333333;
+    --color11: #E0E0E3;
+
+    --fontOne: 'Montserrat', sans-serif;
+    --fontTwo: 'Baloo Bhaina 2', cursive;
+
+    --font-size-1: 22px;
+    --font-size-2: 35px;
+    --font-size-3: 40px;
+    --font-size-4: 50px;
+    --font-size-5: 60px;
+    --font-size-6: 90px;
+}
+
+/*otros estilos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.msd-margin-1{
+    margin-top: 80px;
+}
+.msd-margin-2{
+    margin-top: 30px;
+}
+.pasos {
+    width: 230px;
+    background: var(--color2);
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+    margin: 0 auto 0 auto;
+}
+/*fin otros estilos*/
+
+/*secciones*/
+.msd-section-1{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: var(--color11);
+}
+.msd-section-2{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.msd-section-3{
+    padding: 50px 0 0 0;
+    text-align: center;
+    background-color: var(--color5);
+}
+.line{
+    background-color: var(--color2);
+    height: 20px;
+}
+.msd-section-4{
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+/*fin secciones*/
+
+/*CONTENDORES*/
+.contenedor-msd-section{
+    width: 80%;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    margin: 0 auto 0 auto;
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+    box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.contenedor-msd-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-2-msd-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 150px;
+    margin: 20px auto 0 auto;
+    background-color: var(--color5);
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+}
+.content-box-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*FIN CONTENEDORES*/
+
+/*imagenes*/
+.msd-logo{
+    margin: 10px 0 10px 0;
+}
+.msd-img-mujeres{
+    margin: 20px 0 20px 0;
+}
+.img-examen{
+    margin: 20px;
+}
+/*fin imagenes*/
+
+/*estilos textox*/
+.style-msd-section-1-p{
+    font-family: var(--fontTwo);
+    font-size: var(--font-size-4);
+    line-height: 40px;
+    color: var(--color1);
+}
+
+.style-msd-section-2-t{
+    font-family: var(--fontOne);
+    font-size: var(--font-size-6);
+    color: var(--color2);
+    font-weight: 900;
+}
+.style-msd-section-3-t{
+    font-family: var(--fontOne);
+    font-size: var(--font-size-6);
+    color: var(--color4);
+    font-weight: 900;
+    line-height: 90px;
+    margin: 0 0 20px 0;
+}
+.style-msd-section-2-p{
+    font-family: var(--fontTwo);
+    font-size: var(--font-size-3);
+    line-height: 40px;
+    color: var(--color1);
+}
+.style-msd-section-2-p-2{
+    font-family: var(--fontTwo);
+    font-size: var(--font-size-3);
+    line-height: 40px;
+    color: var(--color3);
+}
+.style-msd-section-2-p-3{
+    font-family: var(--fontTwo);
+    font-size: var(--font-size-3);
+    line-height: 40px;
+    color: var(--color3);
+    text-align: left;
+    margin-left: 15px;
+}
+.style-msd-section-2-p-4{
+    font-family: var(--fontTwo);
+    font-size: var(--font-size-3);
+    line-height: 40px;
+    color: var(--color4);
+}
+.style-msd-section-3-p{
+    font-family: var(--fontTwo);
+    font-size: var(--font-size-3);
+    line-height: 40px;
+    color: var(--color1);
+}
+.style-msd-section-3-p-2{
+    font-family: var(--fontTwo);
+    font-size: var(--font-size-3);
+    line-height: 40px;
+    color: var(--color4);
+    margin: 30px 0 60px 0;
+}
+.style-msd-section-3-p-3{
+    font-family: var(--fontTwo);
+    font-size: var(--font-size-3);
+    line-height: 40px;
+    color: var(--color4);
+    margin: 10px 0 40px 0;
+}
+.style-msd-section-4-p{
+    font-family: var(--fontTwo);
+    font-size: var(--font-size-3);
+    line-height: 40px;
+    color: var(--color2);
+    margin: 0 0 40px 0;
+}
+
+.style-title-pasos{
+    font-family: var(--fontOne);
+    color: var(--color4);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/*fin estilos textox*/
+
+/* On screens that are 992px or less*/
+@media screen and (max-width: 992px) {
+    
+  }
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+    
+}
