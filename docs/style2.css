@@ -76,6 +76,12 @@ a{
     transform: skew(-15deg);
     margin: 0 auto 0 auto;
 }
+.display-redes-1{
+    display: block;
+}
+.display-redes-2{
+    display: none;
+}
 /*fin otros estilos*/
 
 /*secciones*/
@@ -113,6 +119,7 @@ a{
 }
 .msd-section-7{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 50px 0 50px 0;
@@ -148,6 +155,7 @@ a{
 
 .contenedor-msd{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -155,7 +163,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 85%;
     height: 150px;
     margin: 20px auto 0 auto;
     background-color: var(--color5);
@@ -193,7 +201,7 @@ a{
 
 /*imagenes*/
 .img-marcas{
-    margin: 0 40px 0 40px;
+    margin: 40px;
 }
 .msd-img{
     margin: 30px 0 30px 0;
@@ -203,6 +211,7 @@ a{
 }
 .msd-img-mujeres{
     margin: 20px 0 20px 0;
+    width: 90%;
 }
 .img-examen{
     margin: 20px;
@@ -215,7 +224,7 @@ a{
 /*estilos textox*/
 .style-msd-section-1-p{
     font-family: var(--fontTwo);
-    font-size: var(--font-size-4);
+    font-size: var(--font-size-3);
     line-height: 40px;
     color: var(--color1);
 }
@@ -228,10 +237,10 @@ a{
 }
 .style-msd-section-3-t{
     font-family: var(--fontOne);
-    font-size: var(--font-size-6);
+    font-size: var(--font-size-5);
     color: var(--color4);
     font-weight: 900;
-    line-height: 90px;
+    line-height: 70px;
     margin: 0 0 20px 0;
 }
 .style-msd-section-5-t{
@@ -409,7 +418,7 @@ a{
         margin-top: 20px;
     }
     .msd-img-mujeres{
-        width: 100%;
+        width: 90%;
     }
 
     .contenedor-msd-section{
@@ -419,9 +428,9 @@ a{
         -moz-border-radius: 0px 0px 0px 0px;
         -webkit-border-radius: 0px 0px 0px 0px;
         background: #fff;  /* fallback for old browsers */
-        -webkit-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
-        -moz-box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
-        box-shadow: 0px 2px 68px 8px rgba(0,0,0,0.62);
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
         text-align: center;
         padding: 20px 10px 20px 10px;
     }
@@ -458,9 +467,73 @@ a{
     .style-msd-section-3-p{
         font-size: var(--font-size-2);
     }
+    .style-msd-section-5-t{
+        font-size: var(--font-size-4);
+        line-height: 50px;
+    }
+    .style-msd-section-6-t{
+        font-size: var(--font-size-4);
+        line-height: 50px;
+    }
+    .img-grafico{
+        width: 70%;
+        margin-bottom: 40px;
+    }
+    .msd-img{
+        width: 90%;
+    }
+    .img-personas-2{
+        width: 90%;
+    }
+    .style-msd-section-8-t{
+        font-size: var(--font-size-4);
+        line-height: 50px;
+    }
+    .img-personas-4{
+        width: 90%;
+    }
+    .img-logo-cop{
+        width: 90%;
+    }
+    .img-capsula{
+        width: 60%;
+        margin: 40px 0 40px 0;
+    }
+    .img-marcas{
+        width: 70%;
+        margin: 30px;
+    }
+    .msd-slogan{
+        width: 100%;
+        margin: 30px 0 30px 0;
+    }
+    .style-msd-section-8-p{
+        font-size: var(--font-size-2);
+    }
+    .style-msd-section-8-p-2{
+        font-size: var(--font-size-7);
+        margin-top: 20px;
+    }
+    .display-redes-1{
+        display: none;
+    }
+    .display-redes-2{
+        display: block;
+    }
+    .msd-btn-donaciones{
+        width: 70%;
+    }
   }
 
 /* On screens that are 600px or less */
 @media screen and (max-width: 600px) {
-    
+    .style-msd-section-3-t{
+        font-size: var(--font-size-2);
+    }
+    .style-msd-section-3-p{
+        font-size: var(--font-size-2);
+    }
+    .img-examen{
+        width: 90%;
+    }
 }
